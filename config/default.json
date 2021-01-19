@@ -1,0 +1,3 @@
+{
+    "mongoURI" : "mongodb+srv://himanshuk:himanshu12345@devconnector.kufsz.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
