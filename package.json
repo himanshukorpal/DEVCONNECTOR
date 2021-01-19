@@ -4,8 +4,8 @@
   "description": "Social Network for developer",
   "main": "server.js",
   "scripts": {
-    "start" : "node server",
-    "server" : "nodemon server"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,8 @@
     "express-validator": "^6.9.2",
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.11.11",
+    "live-server": "^1.2.1",
+    "mongoose": "^5.11.12",
     "request": "^2.88.2"
   },
   "devDependencies": {
