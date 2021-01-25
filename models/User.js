@@ -9,11 +9,11 @@ const UserSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
-  passaword: {
+  password: {
     type: String,
     required: true,
   },
-  avataar: {
+  avatar: {
     type: String,
   },
   date: {
@@ -22,4 +22,4 @@ const UserSchema = new mongoose.Schema({
   },
 });
 
-module.exports = User = mongoose.Schema("user", UserSchema);
+module.exports = User = mongoose.model("user", UserSchema);
